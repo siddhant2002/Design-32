@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p
+{
+    font-weight: 600;
+}
+
+.cont
+{
+    padding-bottom: 21px;
+    display: flex;
+    gap: 20px;
+}
+
+.cont1,.cont2
+{
+    text-align: center;
+}
+
+.cont3
+{
+    display: inline-block;
+    text-align: center;
+}
+
+.num1
+{
+    padding-bottom: 20px;
+}
+
+/* .second
+{
+    position: relative;
+} */
+
+.second img
+{
+    position: absolute;
+    bottom: 25%;
+    right: -21%;
+    border-radius:20%
+}
+
+.first
+{
+    padding: 70px 0px 0px 58px;
+}
+
+
+h1
+{
+    font-size: 34px;
+}
+
+/* .third
+{
+    
+} */
+.third img
+{
+    position: absolute;
+    top: 60%;
+    left: -33%;
+    border-radius: 10%;
+}
+
+.fourth
+{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+}
+
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 32px;
+    outline: none;
+    border-radius: 30px;
+}
+
+.fourth p
+{
+    padding-top: 10px;
+}
